@@ -2,7 +2,15 @@
 
 1. What is a Node module?
 
+A Node module is a module for Node that contains pre-written code, 
+designed to suit a specific puspose, that can be imported into other code.
+
 2. What is the main difference between exports and module.exports?
 
+Exports is a reference to module.exports and can not be overwritten by assignment,
+while module.exports is an empty object, and can be overwritten by assignment.
+
 3. Why is using exports recommended?
+
+It is recommended because it cannot be overwritten by assignment.
 
